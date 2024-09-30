@@ -10,7 +10,7 @@ B*a
 B*b
 a1 <- cbind(a,A)
 b1 <- cbind(b,B)
-a1 * A
+a1 * a1
 S= matrix(2:5, nrow = 2)
 det(S)
 solve(S)
