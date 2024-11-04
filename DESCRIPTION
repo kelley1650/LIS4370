@@ -1,11 +1,10 @@
 Package: kelleypackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Data Visualizations
 Version: 0.0.9000
-Author@R: Kelley McDaniel <kelleym11@usf.edu>
+Author@R: "Kelley McDaniel <kelleym11@usf.edu> [aut,cre]"
 Maintainer: Kelley Mcdaniel <Kelleym11@usf.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Create graphics
 License: CC0
 Depends: r (>= 4.3.0)
 Encoding: UTF-8
