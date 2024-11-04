@@ -1,7 +1,7 @@
 Package: kelleypackage
 Type: Package
 Title: Data Visualizations
-Version: 0.0.9000
+Version: 0.0.0.9000
 Author@R: "Kelley McDaniel <kelleym11@usf.edu> [aut,cre]"
 Maintainer: Kelley Mcdaniel <Kelleym11@usf.edu>
 Description: Create graphics
