@@ -1,1 +1,41 @@
+title: "R Markdown"
+author: "Kelley McDaniel"
+date: "11/17/2024"
+output: html_document
+---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Libraries
+Libraries that may be used in the final project.
+```{r library}
+library(knitr)
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(shiny)
+library(plyr)
+```
+
+## Functions
+Functions I will use in the final project with random data.
+
+```{r State}
+State <- c("Florida", "California", " New York", "Texas", "Virginia", "Louisiana")
+StateCap <- c("Tallahassee", "Sacramento", "Albany", "Austin", "Richmond", "Baton Rouge")
+StatePop23 <- c(22.61, 38.97, 19.57, 30.5, 8.72, 4.57) # By Millions
+CapitalPop <- c(202221, 526384,101228, 979882, 229247,  219573) # By Thousands
+ df <- data.frame(State, StateCap, StatePop23, CapitalPop)
+```
+
+## DataFrame
+```{r dfState}
+ df <- data.frame(State, StateCap, StatePop23, CapitalPop)
+```
+
+## ggplot
+```{r plotstate, echo=FALSE}
+ggplot(df, aes(State, StatePop23)) + geom_bar(stat = "identity" ,fill = "purple") + labs(title = "State Populations by Millions", x = "State", y = "Population")
+```
